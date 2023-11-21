@@ -1,0 +1,9 @@
+@import '../global-css.scss';
+
+body {
+  background-color: $background-blue;
+  margin: 0;
+  @media(max-width: 640px){
+    background-color: white;
+  }
+}

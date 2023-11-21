@@ -1,0 +1,40 @@
+@import '../../global-css.scss';
+
+.wrapper{
+    background-color: white;
+    min-height: 100%;
+    padding: $m10 $m6;
+    border-radius: $m4;
+    box-sizing: border-box;
+    box-shadow: $box-shadow-form;
+    border: $border;
+    display:flex;
+    flex-direction: column;
+    row-gap: $m4;
+    align-items: center;
+    height: fit-content;
+    @media(max-width: 640px){
+        max-width: 100%;
+        padding: 0;
+        box-shadow: unset;
+        border: none;
+        width: 100%;
+    }
+}
+
+h2{
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: $black-blue;
+}
+
+.inputs-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: $m2;
+    width: 100%;
+    box-sizing: border-box;
+}
