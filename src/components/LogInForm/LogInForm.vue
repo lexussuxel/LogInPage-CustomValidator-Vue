@@ -65,10 +65,8 @@ const setPassword = (value: string) => {
 const setRepPassword = (value: string) => {
   form.items.repPassword.value.value = value
 }
-console.log(form.errors.name)
 
 const buttonClickHandler = () => {
-  console.log('aaa')
   if (form.validate())
     router.push('success')
   else{
@@ -77,7 +75,6 @@ const buttonClickHandler = () => {
     passwordErrors.value = form.errors.password
     repPasswordErrors.value = form.errors.repPassword
   }
-  console.log(form.errors)
 }
 </script>
 

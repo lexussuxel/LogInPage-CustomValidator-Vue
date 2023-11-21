@@ -11,7 +11,6 @@ defineProps<{
     let showPassword = ref(false);
 
     const changeShowPassword = () => {
-        console.log(showPassword)
         showPassword.value = !showPassword.value
     }
 

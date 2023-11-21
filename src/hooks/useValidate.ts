@@ -38,12 +38,11 @@ export class FormValidator<T> {
           }
           return ({[entrie[0]]: errorsArr})
         })
-        .filter((a) => {console.log(a);return a !== undefined})
+        .filter((a) => a !== undefined)
     )
     for(const [key, val] of Object.entries(identityObj)){
         if(!val.every((el) => el.value === val[0].value)){
             val.forEach((el) => {
-                console.log(this.errors[el.id])
                 this.errors[el.id] = [...this.errors[el.id], `нессответствие с полем ${key}`]
             })
         }
