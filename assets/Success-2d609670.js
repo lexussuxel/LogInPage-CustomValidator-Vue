@@ -1,0 +1,1 @@
+import{_ as e,o as c,c as t,a as s}from"./index-2cb04f71.js";const _="/assets/login-4c6829d9.svg";const o={},n={class:"success-wrapper"},a=s("h1",null,"Вы успешно прошли регистрацию",-1),r=s("img",{src:_,alt:"registration"},null,-1),i=[a,r];function l(d,u){return c(),t("div",n,i)}const f=e(o,[["render",l]]);export{f as default};
